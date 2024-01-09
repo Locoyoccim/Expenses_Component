@@ -1,0 +1,38 @@
+:root {
+    /*Primary*/
+    --Soft_red: hsl(10, 79%, 65%);
+    --Cyan: hsl(186, 34%, 60%);
+    /*Neutral*/
+    --Dark_brown: hsl(25, 47%, 15%);
+    --Medium_brown: hsl(28, 10%, 53%);
+    --Cream: hsl(27, 66%, 92%);
+    --Very_pale_orange: hsl(33, 100%, 98%);
+  }
+.top_container{
+    background-color: var(--Soft_red);
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+.balance_word{
+    color: var(--Cream);
+    font-size: 14px;
+    margin-bottom: 7px;
+    letter-spacing: 1.5px;
+}
+.total_container{
+    color: var(--Very_pale_orange);
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    margin-top: 0;
+}
+.logo_container{
+    margin: 20px 0;
+}
+.logo{
+    width: 55px;
+}

@@ -1,0 +1,51 @@
+:root {
+  /*Primary*/
+  --Soft_red: hsl(10, 79%, 65%);
+  --Cyan: hsl(186, 34%, 60%);
+  /*Neutral*/
+  --Dark_brown: hsl(25, 47%, 15%);
+  --Medium_brown: hsl(28, 10%, 53%);
+  --Cream: hsl(27, 66%, 92%);
+  --Very_pale_orange: hsl(33, 100%, 98%);
+}
+.bar_container {
+  position: relative;
+}
+.barra {
+  width: 35px;
+  background-color: var(--Soft_red);
+  height: 80px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 0;
+  transition: all 0.4s ease;
+}
+.day_style {
+  font-size: 14px;
+  color: var(--Medium_brown);
+  text-align: center;
+  margin: 0;
+  margin-top: 10px;
+}
+.price_display {
+  background-color: var(--Dark_brown);
+  width: 50px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--Very_pale_orange);
+  position: absolute;
+  border-radius: 5px;
+  transform: translate(-8px, -35px);
+  display: grid;
+  place-items: center;
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+}
+
+.barra:hover {
+  background-color: var(--Cyan);
+}
+.bar_container:hover div {
+  opacity: 1;
+}
