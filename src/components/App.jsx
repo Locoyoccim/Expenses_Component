@@ -3,7 +3,6 @@ import Top from "/src/components/Top.jsx";
 import "/src/styles/app.css";
 import Bar from "/src/components/Bar.jsx";
 import Data from "/data.json";
-import Changes from "./Changes";
 
 function App() {
   console.log(Data);
